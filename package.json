@@ -1,0 +1,18 @@
+{
+  "name": "jobpulse-india",
+  "version": "1.0.0",
+  "description": "India's Smart Government Job Alert Platform",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "crawl": "cd backend && node ../scripts/job-crawler.js",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": ["government-jobs", "india", "sarkari-naukri", "job-portal"],
+  "author": "JobPulse India",
+  "license": "MIT"
+}
